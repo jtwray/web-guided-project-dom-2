@@ -3,16 +3,16 @@ console.log('project is up')
 // 👉 TASK 1- Select the following elements from the DOM:
 
 // BUTTONS
-const launchButton = null
-const confirmButton = null
-const cancelButton = null
+const launchButton = document.querySelector('#launchButton')
+const confirmButton = document.querySelector('#confirmButton')
+const cancelButton = document.querySelector('#cancelButton')
 
 // MESSAGES
-const successMessage = null
-const failureMessage = null
+const successMessage = document.querySelector('.report.success')
+const failureMessage = document.querySelector('.report.failure')
 
 // MODAL
-const modal = null
+const modal = document.querySelector('.modal')
 
 
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
