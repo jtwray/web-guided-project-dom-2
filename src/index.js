@@ -31,6 +31,9 @@ launchButton.addEventListener(
     console.log('the modern way')
   }
 )
+launchButton.addEventListener('click', () => {
+  console.log('another modern one')
+})
 
 
 // 👉 TASK 3- Create a function that launches!
