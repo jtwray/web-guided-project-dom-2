@@ -42,6 +42,8 @@ launchButton.addEventListener('click', () => {
 // Add it as an event listener for click events on the launch button.
 launchButton.addEventListener('click', () => {
   modal.classList.remove('off')
+  successMessage.classList.add('off')
+  failureMessage.classList.add('off')
 })
 
 // 👉 TASK 4- Create a function to confirm the launch.
