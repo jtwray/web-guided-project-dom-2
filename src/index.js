@@ -18,7 +18,19 @@ const modal = document.querySelector('.modal')
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
 //      - HTML
 //      - The DOM's element.onclick
+
+launchButton.textContent = 'something'
+
+launchButton.onclick = function () {
+  console.log('pretty old school')
+}
 //      - element.addEventListener()
+launchButton.addEventListener(
+  'click', // arg 1: a type of event (this is a string)
+  function () {
+    console.log('the modern way')
+  }
+)
 
 
 // 👉 TASK 3- Create a function that launches!
